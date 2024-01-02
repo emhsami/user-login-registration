@@ -117,6 +117,7 @@ input{
 
 /* _______________________ Small Device Responsive____________________ */
 @media screen and (max-width: 576px) {
+    
     .container{
         width: 100%;
         flex-direction: column;
@@ -138,5 +139,32 @@ input{
     }
     .title{
         height: 35vh;
+    }
+
+    .login-form h2{
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    .login-form p{
+        font-size: calc(50% + 1vw);
+        margin-top: 2%;
+    }
+
+    form{
+        margin-top: 2%;    
+    }
+}
+
+/* _______________________________ Medium screen responsive______________________ */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    h1{
+        /* font-size: 3.8rem; */
+        font-size: calc(50% + 5vw);
+    }
+    .login-form h2{
+        font-size: calc(50% + 5vw);
     }
 }
