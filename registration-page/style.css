@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: #e7edfb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* _________________ Left Side Styles_____________________- */
+.left-side{
+    width: 50%;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10% 5%;
+
+    
+}
+.left-side h1{
+    color: #38a4b7;
+    font-size: 4rem;
+}
+.input{
+    display: flex;
+    gap: 10%;
+}
+.input-size{
+    width: 30%;
+    padding: 0.5rem 1rem ;
+    margin: 1rem 0;
+}
+.input-style{
+    border: 0;
+    background-color: #adaaaa3d;
+    outline: 0;
+    border-radius: 0.3rem;
+}
+
+.email{
+    width: 70%;
+    padding: 0.5rem 1rem;
+}
+button{
+    width: 50%;
+    padding: 0.5rem 0;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #38a4b7;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* ______________________ Right Side Styles__________________ */
+.right-side{
+    background-image:  url(home-page-img.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 80vh;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    padding: 5%;
+}
+
+.right-side h2{
+    font-size: 4rem;
+}
+
+/* ____________________ Small screen responsive___________________ */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .left-side, .right-side{
+        width: 100%;
+        height: 50vh;
+        align-items: center;
+        gap: 2%;
+    }
+    .input-size{
+        width: 50%;
+    }
+    .email{
+        width: 64%;
+    }
+}
