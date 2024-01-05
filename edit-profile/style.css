@@ -34,12 +34,13 @@ h3, input{
 .left-side{
     width: 40%;
     height: 100%;
-
+    margin: 5% 0;
 }
 
 .left-side img{
     width: 200px;
     height: 200px;
+    margin: 0 auto;
     border-radius: 50%;
     background-color: rgb(209, 207, 207);
 }
@@ -66,6 +67,7 @@ h3, input{
 .right-side{
     width: 100%;
     padding: 2%;
+    margin: 5% 0;
 
     /* border: 1px solid red; */
 }
@@ -100,4 +102,34 @@ button{
     border-radius: 0.5rem;
     font-size: 2rem;
     font-weight: 700;
+}
+
+
+/* ______________________ Small Screen Responsive___________________________ */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .left-side{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .right-side{
+        width: 105%;
+        background-color: #fff;
+    }
+    button{
+        margin: 10% 0;
+        margin-left: 35%;
+    }
 }
