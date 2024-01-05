@@ -78,9 +78,10 @@ button{
 .right-side{
     background-image:  url(home-page-img.jpg);
     width: 50%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: right;
     height: 80vh;
     color: #fff;
 
