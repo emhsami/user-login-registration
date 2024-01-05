@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+body {
+    background-color: #e7edfb;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 2%;
+    gap: 3%;
+}
+
+h1, h2{
+    color: #38a4b7;
+}
+h3, input{
+    color: rgb(52, 51, 51);
+}
+
+/* ____________________________ Left Side styles_______________________ */
+.left-side{
+    width: 40%;
+    height: 100%;
+
+}
+
+.left-side img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(209, 207, 207);
+}
+
+       /* ____ left side navigation styles____ */
+            .navigation{
+                border: 1px solid #504f4f75;
+                border-radius: 0.3rem;
+                margin-top: 10%;
+            }
+            h2{
+                padding: 2% 3%;
+                border-top: 1px solid #504f4f75;
+            }
+            .top-o{
+                border-top: 0;
+            }
+            h2:hover{
+                background-color: #38a4b7;
+                color: #fff;
+            }
+
+/* ________________________ Right Side styles_________________________ */
+.right-side{
+    width: 100%;
+    padding: 2%;
+
+    /* border: 1px solid red; */
+}
+input{
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1%;
+    /* margin: 1% 0; */
+    outline: 0;
+    border: 0;
+    border-radius: 0.4rem;
+    background-color: #38a4b725;
+}
+input:hover{
+    background-color: #38a4b77e;
+}
+
+.right-side h3{
+    margin-top: 2%;
+}
+h1{
+    font-size: 3rem;
+}
+button{
+    width: 30%;
+    margin-top: 4%;
+    padding: 1% 0;
+    background-color: #38a4b7;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
