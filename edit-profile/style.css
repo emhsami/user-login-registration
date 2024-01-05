@@ -101,8 +101,14 @@ button{
     border-radius: 0.5rem;
     font-size: 2rem;
     font-weight: 700;
+    transition: background 0.3s;
 }
-
+button:hover{
+    background-color: #fff;
+    color: #38a4b7;
+    border: 1px solid #38a4b7;
+    cursor: pointer;
+}
 
 /* ______________________ Small Screen Responsive___________________________ */
 @media screen and (max-width: 576px) {
