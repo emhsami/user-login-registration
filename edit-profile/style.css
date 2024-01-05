@@ -43,39 +43,37 @@ h3, input{
     margin: 0 auto;
     border-radius: 50%;
     background-color: rgb(209, 207, 207);
+    
 }
 
-       /* ____ left side navigation styles____ */
-            .navigation{
-                border: 1px solid #504f4f75;
-                border-radius: 0.3rem;
-                margin-top: 10%;
-            }
-            h2{
-                padding: 2% 3%;
-                border-top: 1px solid #504f4f75;
-            }
-            .top-o{
-                border-top: 0;
-            }
-            h2:hover{
-                background-color: #38a4b7;
-                color: #fff;
-            }
-
+                /* ____ left side navigation styles____ */
+                .navigation{
+                    border: 1px solid #504f4f75;
+                    border-radius: 0.3rem;
+                    margin-top: 10%;
+                }
+                            h2{
+                                padding: 2% 3%;
+                                border-top: 1px solid #504f4f75;
+                            }
+                            .top-o{
+                                border-top: 0;
+                            }
+                            h2:hover{
+                                background-color: #38a4b7;
+                                color: #fff;
+                            }
+            
 /* ________________________ Right Side styles_________________________ */
 .right-side{
     width: 100%;
     padding: 2%;
     margin: 5% 0;
-
-    /* border: 1px solid red; */
 }
 input{
     font-size: 1.5rem;
     width: 100%;
-    padding: 1%;
-    /* margin: 1% 0; */
+    padding: 1%; 
     outline: 0;
     border: 0;
     border-radius: 0.4rem;
@@ -131,5 +129,14 @@ button{
     button{
         margin: 10% 0;
         margin-left: 35%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .left-side{
+        width: 80%;
     }
 }
