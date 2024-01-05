@@ -78,6 +78,7 @@ input{
     border: 0;
     border-radius: 0.4rem;
     background-color: #38a4b725;
+    border-left: 5px solid #38a4b7;
 }
 input:hover{
     background-color: #38a4b77e;
